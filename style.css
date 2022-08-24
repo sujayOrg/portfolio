@@ -114,7 +114,7 @@ header.shadow {
       width: 0ch;
   }
   50%{
-      width: 22ch;
+      width: 18ch;
   }
 }
 
@@ -326,6 +326,7 @@ button:hover{
     flex-direction: column;
     background: white;
     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+    transition: 0.2s;
     text-align: center;
   }
   .navbar.active {
